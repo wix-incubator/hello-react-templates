@@ -10,10 +10,12 @@ Starter project for [react-templates](https://github.com/wix/react-templates)
 
 ```bash
 npm install -g grunt-cli
+npm install -g serve
 git clone git@github.com:wix/hello-react-templates.git
 cd hello-react-templates
 npm install
 grunt
+serve
 ```
 
 ### Run
