@@ -10,13 +10,19 @@ Starter project for [react-templates](https://github.com/wix/react-templates)
 
 ```bash
 npm install -g grunt-cli
-npm install -g serve
 git clone git@github.com:wix/hello-react-templates.git
 cd hello-react-templates
 npm install
 grunt
+```
+
+* if you need a web server
+ 
+```bash
+npm install -g serve
 serve
 ```
 
 ### Run
-Open src/index.html in browser
+Open http://localhost:3000/src/index.html in browser
+Explore
