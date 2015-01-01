@@ -1,6 +1,6 @@
 ## Overview
 
-Starter project for react-templates
+Starter project for [react-templates](https://github.com/wix/react-templates)
 
 ## Quick start
 
