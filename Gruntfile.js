@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         watch: {
             rt: {
                 files: [
-                    'playground/*.rt'
+                    'src/**/*.rt'
                 ],
                 tasks: ['rt'],
                 options: {
