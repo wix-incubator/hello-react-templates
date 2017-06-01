@@ -4,7 +4,7 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-eslint": "^3.0.0",
-    "grunt-react-templates": "^0.1.2"
+    "grunt-react-templates": "0.5.0"
   },
   "engines": {
     "node": ">=0.10.0"
