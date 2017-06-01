@@ -26,9 +26,12 @@ module.exports = function (grunt) {
             }
         },
         reactTemplates: {
+          dist: {
+            src: ['src/**/*.rt'],
             modules: 'amd',
             format: 'stylish',
-            src: ['src/**/*.rt']
+            targetVersion: '0.15.0'
+          }
         }
     });
 

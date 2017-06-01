@@ -2,7 +2,8 @@ requirejs.config({
 //    baseUrl: '/',
     paths: {
         lodash: '//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min',
-        react: '//fb.me/react-with-addons-0.12.2'
+        react: '//cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-with-addons',
+        reactDOM: '//cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.min'
     },
     shim: {
         lodash: {exports: '_'},
@@ -15,7 +16,7 @@ requirejs.config({
     }
 });
 
-requirejs(['react', './hello'], function (React, hello) {
+requirejs(['react', 'reactDOM', './hello'], function (React, ReactDOM, hello) {
     'use strict';
-    React.render(React.createElement(hello), document.getElementById('container'));
+    ReactDOM.render(React.createElement(hello), document.getElementById('container'));
 });
